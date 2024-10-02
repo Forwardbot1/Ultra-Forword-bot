@@ -1,13 +1,13 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", "26451624"))
-    API_HASH = environ.get("API_HASH", "1dc5e466048e7e45c37aa284d32caef6")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "6498000890:AAEk4NmVE0mDH_QMcINZJfIhpSuuGOz9A6Y") 
-    BOT_SESSION = environ.get("BOT_SESSION", "bot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Sohanrazz:Sohanrazz@cluster0.tg5fu9r.mongodb.net/?retryWrites=true&w=majority")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "i")
-    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5897793065').split()]
+    API_ID = os.environ.get("API_ID", "21723836")
+    API_HASH = os.environ.get("API_HASH", "f755ab041ac9ab14ab0c25606dd92156")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7939476396:AAEGZIF4RHNpykMXmoR7Q6JV3YPJ2NqLqJw") 
+    BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://forwardbot17:rvforward1@cluster0.ubuxz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "Cluster0")
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '7052947046').split()]
     
 class temp(object): 
     lock = {}
