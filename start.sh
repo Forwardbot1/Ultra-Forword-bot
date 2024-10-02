@@ -7,7 +7,7 @@ else
   git clone https://github.com/Sohanraz/Ultra-Forword-bot -b $BRANCH /fwdbot
 fi
 
-cd FORWARD-PRO  # Changed directory to the cloned repository
+cd Ultra-Forword-bot  # Changed directory to the cloned repository
 
 # Ensure pip3 is installed
 if ! command -v pip3 &>/dev/null; then
