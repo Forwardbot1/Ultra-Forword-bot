@@ -1,10 +1,10 @@
 echo "Cloning Repo...."
 if [ -z $BRANCH ]; then
   echo "Cloning main branch...."
-  git clone https://github.com/tgaibotz/FORWARD-PRO
+  git clone https://github.com/Sohanraz/Ultra-Forword-bot
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/tgaibotz/FORWARD-PRO -b $BRANCH /fwdbot
+  git clone https://github.com/Sohanraz/Ultra-Forword-bot -b $BRANCH /fwdbot
 fi
 
 cd FORWARD-PRO  # Changed directory to the cloned repository
